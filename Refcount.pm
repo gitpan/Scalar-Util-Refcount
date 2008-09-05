@@ -24,8 +24,8 @@
 # NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 # SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
-# $Rev: 2 $
-# $Date: 2008-09-05 00:02:12 -0400 (Fri, 05 Sep 2008) $
+# $Rev: 3 $
+# $Date: 2008-09-05 09:24:06 -0400 (Fri, 05 Sep 2008) $
 
 package Scalar::Util::Refcount;
 
@@ -34,7 +34,7 @@ our @EXPORT = qw(refcount);
 our @EXPORT_OK = qw(refcount refcount_sv);
 our %EXPORT_TAGS = ('all' => \@EXPORT_OK);
 
-our $VERSION = '1.0.1';
+our $VERSION = '1.0.2';
 
 require XSLoader;
 package Scalar::Util::Refcountc;

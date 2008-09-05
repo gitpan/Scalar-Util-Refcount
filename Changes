@@ -1,3 +1,8 @@
+1.0.2:
+  - I'd like to thank pax for turning extended attributes into nice
+    little extra files to mess up the build process.  That was really
+    cool.  Anyway, they're gone now.
+
 1.0.1:
   - Specify minimum required version of Exporter, which turns out to be
     the one shipped with Perl 5.8.3, whereas the module claims to only

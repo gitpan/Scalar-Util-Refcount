@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                Scalar-Util-Refcount
-version:             1.0.1
+version:             1.0.2
 abstract:            Show an object's reference count.
 license:             bsd
 author:              
