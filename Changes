@@ -1,0 +1,8 @@
+1.0.1:
+  - Specify minimum required version of Exporter, which turns out to be
+    the one shipped with Perl 5.8.3, whereas the module claims to only
+    require 5.8.0.
+  - Add a META.yml, which seems to be all the rage these days.
+
+1.0:
+  - Initial release.

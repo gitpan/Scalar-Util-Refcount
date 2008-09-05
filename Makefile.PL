@@ -6,8 +6,9 @@ WriteMakefile(
     NAME              => 'Scalar::Util::Refcount',
     VERSION_FROM      => 'Refcount.pm',
     PREREQ_PM         => { 'XSLoader' => 0,
-                           'Exporter' => 0 },
+                           'Exporter' => '5.57' },
     OBJECT            => 'Refcount_wrap.o',
     AUTHOR            => 'Jeremy Nixon <jnixon@cpan.org>',
     LICENSE           => 'bsd',
+    NO_META           => 1, # did this by hand to add more info.
 );
